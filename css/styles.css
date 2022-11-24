@@ -80,6 +80,7 @@ img {
 .firstsec, .thirdsec, .secondsec {
     width: 100%;
     height: 30%;
+    padding: 0 0 0 50px;
 }
 
 
@@ -91,4 +92,16 @@ button {
 .firstsec, .thirdsec {
     height: 35%;
     background-color: #f9fafb;
+    padding: 35px 0 0 50px;
+}
+
+form {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+form * {
+    height: 20px;
+    width: 250px;
 }
