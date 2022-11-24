@@ -2,7 +2,16 @@
  We’ve used Norse Bold, but
   you can use any font you like.
 */
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('../webfontkit/norse-bold-webfont.woff2') format('woff2'),
+         url('../webfontkit/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     border: 1px solid black;
     box-sizing: border-box;
@@ -42,7 +51,7 @@ body {
 .logo {
     width: 100%;
     height: 200px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.35);
     /*background-image: url('../odin-lined.png');*/
     display: flex;
     justify-content: center;
@@ -56,5 +65,30 @@ img {
 
 .logo h1 {
     color: white;
-    font-family: 'norsebold', times New Roman;
+    font-family: 'norsebold', sans-serif;
+    font-size: 80px;
+}
+.left-side .lower-part *{
+    color: white;
+}
+
+.lower-part {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.firstsec, .thirdsec, .secondsec {
+    width: 100%;
+    height: 30%;
+}
+
+
+button {
+    background-color: #596D48;
+    color: white;
+}
+
+.firstsec, .thirdsec {
+    height: 35%;
+    background-color: #f9fafb;
 }
