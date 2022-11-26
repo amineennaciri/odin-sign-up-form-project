@@ -7,4 +7,4 @@ The website will consist of a main html index page, a css page and javascript pa
 
 By the end of the project, I will have demonstrated skills in setting up a website using my knowledge around forms.
 
-Self-reflection and conclusion:
+Self-reflection and conclusion: the comparison between the password and confirm password is still missing and needs to be added later, However the form looks solid and match exactly the sketch provided for this project.

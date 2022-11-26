@@ -22,31 +22,31 @@
     </div>
     <div class="right-side">
         <div class="firstsec">
-            <p>This is not a real online service! you know you need something like this in your life to help your ralize your deepest dreams.</p>
-            <h2>Sign up now to get started.</h2>
+            <p>This is not a real online service! you know you need something like this in your life to help your realize your deepest dreams.</p>
+            <h2>Sign up <i>now</i> to get started.</h2>
             <span>You know you want to.</span>
         </div>
         <div class="secondsec">
             <h1>Let's do this</h1>
             <div>
-                <form action="#" method="post" class="speaker-form">
+                <form action="#" method="post" class="speaker-form" id="form1">
                     <label for="first-name">FIRST NAME</label>
-                    <input id='first-name' name='first-name' type="text"/>
+                    <input id='first-name' name='first-name' type="text" required/>
                     <label for="email">EMAIL</label>
-                    <input id='email' name='email' type="email"/>
+                    <input id='email' name='email' type="email" placeholder='joe@example.com' required/>
                     <label for="password">PASSWORD</label>
-                    <input id='password' class="error" name='password' type="password"/>
+                    <input id='password' class="error" name='password' type="password" required/>
                     <label for="last-name">LAST NAME</label>
-                    <input id='last-name' name='last-name' type="text"/>
+                    <input id='last-name' name='last-name' type="text" required/>
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input id='phone-number' name='phone-number' type="tel"/>
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input id='confirm-password' name='confirm-password' type="password"/>    
+                    <input id='phone-number' name='phone-number' type="tel" required/>
+                    <label for="confirm-password" required>CONFIRM PASSWORD</label>
+                    <input id='confirm-password' name='confirm-password' type="password" required/>    
                 </form>
             </div>
         </div>
         <div class="thirdsec">
-            <button type="submit">Create Account</button>
+            <button type="submit" form="form1">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
